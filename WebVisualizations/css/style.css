@@ -1,0 +1,41 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 15px;
+}
+header .logo {
+  background-color: turquoise;
+  color: #fff;
+  font-weight: 700;
+  padding: 10px;
+  box-sizing: border-box;
+}
+header nav > ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header nav > ul > li {
+  position: relative;
+  margin: 0 10px;
+  font-size: 18px;
+}
+header nav > ul > li a {
+  font-size: 18px;
+}
+header nav ul li ul {
+  background-color: #f2f2f2;
+  display: none;
+  list-style-type: none;
+  padding: 5px 10px;
+  text-align: center;
+  position: absolute;
+  right: 0;
+  top: 100%;
+}
+header nav ul li:hover ul {
+  display: block;
+}
